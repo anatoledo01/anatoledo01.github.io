@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    
+}
+
+
+body{
+    background: url(./img/wallpaperbetter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: #b34534;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 100px auto 0;
+}
+.input-task{
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+
+}
+
+.add-task{
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #360c22;
+    color: #ffff;
+    font-size: 17px;
+    padding: 0 15px;
+    float: right;
+    cursor: pointer;
+}
+.add-task:hover{
+    opacity: 0.8;
+}
+.add-task:active{
+    opacity: 0.6;
+}
+.list{
+    width: 100%;
+    list-style: none;
+    margin-top: 30px;
+
+}
+
+.task{
+    background-color: #ffff;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+img {
+    height: 25px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.task:hover img{
+    opacity: 1;
+
+}
+
+.done {
+    background-color: #742431;
+    text-decoration: line-through;
+}
+
