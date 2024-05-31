@@ -2,7 +2,7 @@
 Este é um projeto simples de uma Lista de Tarefas (To-Do List) desenvolvido com JavaScript, HTML e CSS. Ele permite aos usuários adicionar, remover e marcar tarefas como concluídas em uma interface interativa.
 
 Funcionalidades
-Adicionar novas tarefas à lista.
+Adicionar novas tarefas à lista. 
 Marcar tarefas como concluídas.
 Remover tarefas da lista.
 Como Usar
